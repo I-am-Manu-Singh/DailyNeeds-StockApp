@@ -47,17 +47,6 @@ A Jetpack Compose-based shop management app that allows users to add, edit, and 
  // UI Components
 - implementation(libs.androidx.material3) // Material 3 for modern UI
 
-// Testing
-- testImplementation(libs.junit) // Unit testing
-- androidTestImplementation(libs.androidx.junit) // UI testing
-- androidTestImplementation(libs.androidx.espresso.core) // UI interaction testing
-- androidTestImplementation(platform(libs.androidx.compose.bom)) // Compose BOM
-- androidTestImplementation(libs.androidx.ui.test.junit4) // UI test framework
-
-// Debugging & Tooling
-- debugImplementation(libs.androidx.ui.tooling) // Compose preview tools
-- debugImplementation(libs.androidx.ui.test.manifest) // UI testing manifest
-
 // Database - Room
 - implementation(libs.androidx.room.ktx.v252) // Room with Kotlin extensions
 - implementation(libs.androidx.room.runtime) // Room runtime
