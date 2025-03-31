@@ -45,31 +45,31 @@ A Jetpack Compose-based shop management app that allows users to add, edit, and 
 - Add the following dependencies to your build.gradle file:
     ```
  // UI Components
-implementation(libs.androidx.material3) // Material 3 for modern UI
+- implementation(libs.androidx.material3) // Material 3 for modern UI
 
 // Testing
-testImplementation(libs.junit) // Unit testing
-androidTestImplementation(libs.androidx.junit) // UI testing
-androidTestImplementation(libs.androidx.espresso.core) // UI interaction testing
-androidTestImplementation(platform(libs.androidx.compose.bom)) // Compose BOM
-androidTestImplementation(libs.androidx.ui.test.junit4) // UI test framework
+- testImplementation(libs.junit) // Unit testing
+- androidTestImplementation(libs.androidx.junit) // UI testing
+- androidTestImplementation(libs.androidx.espresso.core) // UI interaction testing
+- androidTestImplementation(platform(libs.androidx.compose.bom)) // Compose BOM
+- androidTestImplementation(libs.androidx.ui.test.junit4) // UI test framework
 
 // Debugging & Tooling
-debugImplementation(libs.androidx.ui.tooling) // Compose preview tools
-debugImplementation(libs.androidx.ui.test.manifest) // UI testing manifest
+- debugImplementation(libs.androidx.ui.tooling) // Compose preview tools
+- debugImplementation(libs.androidx.ui.test.manifest) // UI testing manifest
 
 // Database - Room
-implementation(libs.androidx.room.ktx.v252) // Room with Kotlin extensions
-implementation(libs.androidx.room.runtime) // Room runtime
-kapt("androidx.room:room-compiler:2.6.1") // Annotation processor for Room
-annotationProcessor(libs.androidx.room.compiler.v240beta01) // Alternative for KAPT
+- implementation(libs.androidx.room.ktx.v252) // Room with Kotlin extensions
+- implementation(libs.androidx.room.runtime) // Room runtime
+- kapt("androidx.room:room-compiler:2.6.1") // Annotation processor for Room
+- annotationProcessor(libs.androidx.room.compiler.v240beta01) // Alternative for KAPT
 
 // Lifecycle & Permissions
-implementation(libs.androidx.lifecycle.viewmodel.compose) // ViewModel support in Compose
-implementation(libs.accompanist.permissions) // Accompanist for handling runtime permissions
+- implementation(libs.androidx.lifecycle.viewmodel.compose) // ViewModel support in Compose
+- implementation(libs.accompanist.permissions) // Accompanist for handling runtime permissions
 
 // Image Loading
-implementation(libs.coil.compose) // Coil for image loading in Jetpack Compose
+- implementation(libs.coil.compose) // Coil for image loading in Jetpack Compose
     ```
 ---
 
